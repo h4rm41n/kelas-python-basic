@@ -47,13 +47,15 @@ var_dic_list = [
    }  
 ]
 
-dict_contoh = {
-   'nama':'Ahmad2',
-   'alamat':'Selong2',
-   'kelamin':'Laki2'
-}
+dict_contoh = [
+   {
+      'nama':'Ahmad2',
+      'alamat':'Selong2',
+      'kelamin':'Laki2'
+   }
+]
 list_ = [1,4,8]
 list_.append(dict_contoh)
-for i in range(0,len(list_)):print list_[i]
+for i in range(0,len(list_)):print(list_[i])
    
       
